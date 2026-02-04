@@ -226,18 +226,6 @@ python cdsa-genai-public/pubmed_api_test.py
 - Web-based UI for clinical input
 - Database integration for patient data storage
 
-## Contributing
-
-Contributions are welcome! Please ensure:
-- Code follows existing style conventions
-- Input validation and PHI protection are maintained
-- Tests are added for new features
-- Documentation is updated
-
-## License
-
-[Specify your license here]
-
 ## Contact
 
 For questions or issues, please open an issue on GitHub.
