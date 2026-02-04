@@ -232,4 +232,4 @@ For questions or issues, please open an issue on GitHub.
 
 ---
 
-**Note**: This project is for **research purposes only** and is designed to explore how Generative AI can serve as a tool in heavily regulated industries, such as healthcare. This system is intended for clinical decision support research and should be used in conjunction with professional medical judgment. It does not replace clinical expertise or direct patient care, and is not intended for production use in clinical settings without appropriate regulatory review and approval.
+**Note**: This project is designed to explore how Generative AI can serve as a tool in heavily regulated industries, such as healthcare. This system is intended for clinical decision support research and should be used in conjunction with professional medical judgment. It does not replace clinical expertise or direct patient care, and is not intended for production use in clinical settings without appropriate regulatory review and approval.
