@@ -1,0 +1,25 @@
+// CDS Pipeline Workflow
+digraph {
+	A [label="User / Front-End
+(Patient Input)"]
+	B [label="test_user_input.py
+- Input Validation
+- BMI Calculation"]
+	C [label="pubmed_evidence_summary_final.py
+- Symptom-focused PubMed Query
+- Fetch Top Articles
+- Relevance Scoring"]
+	D [label="CDS Model / OCI
+- Reads patient vitals, labs, BMI, symptoms
+- Cross-references with PubMed evidence
+- Clinical Assessment / Recommendations"]
+	E [label="Front-End / EHR
+- Display JSON & Evidence Snippets"]
+	A -> B [label="Enter clinical data"]
+	B -> C [label="ClinicalInput object"]
+	C -> D [label="Evidence + Patient JSON"]
+	D -> E [label="Recommendations / Assessment"]
+	F [label="Additional Patients
+(Multi-session support)"]
+	F -> B [label="Loop for next patient" style=dashed]
+}

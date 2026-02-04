@@ -1,0 +1,9 @@
+[
+  {
+    "patient_id": "TEST123",
+    "timestamp": "2025-11-11T02:06:05.217095+00:00",
+    "query": "positive AND headache AND hba1c AND blood pressure AND ldl AND covid AND 40:50[Age]",
+    "top_articles": [],
+    "snippet": "No relevant clinical literature found for this query."
+  }
+]
